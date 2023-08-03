@@ -1,0 +1,120 @@
+body {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+}
+.header li {
+    list-style-type: none;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.header ul {
+    display: flex;
+}
+.header {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(171, 171, 171));
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.name_in_nav {
+    color: white;
+    margin-right: 550px;
+}
+.part1 {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.part2 {
+    display: flex;
+    justify-content: space-between;
+}
+.part2__Card1 {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+.part2__title1 {
+    height: 5px;
+}
+.part2__color1 {
+    background-color: rgb(85, 79, 125);
+    height: 150px;
+    padding-top: 20px;
+}
+.part2__text1 {
+    font-size: 50px;
+    color: #fff;
+}
+.part2__Card2 {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+}
+.part2__title2 {
+    height: 5px;
+}
+.part2__color2 {
+    background-color: rgb(85, 79, 125);
+    height: 150px;
+    padding-top: 20px;
+}
+.part2__text2 {
+    font-size: 50px;
+    color: #fff;
+}
+.part2__Card3 {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 50px;
+}
+.part2__title3 {
+    height: 5px;
+}
+.part2__color3 {
+    background-color: rgb(85, 79, 125);
+    height: 150px;
+    padding-top: 20px;
+}
+.part2__text3 {
+    font-size: 50px;
+    color: #fff;
+}
+.part2_loadingCard2,
+.part2loadingCard1,
+.part2_loadingCard3 {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+    min-height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 400px;
+}
+.tasks{
+    margin-top: 10px;
+    width: 100 100;
+}
+.dev{
+    display: flex;
+}
+.rightbutton{
+    margin-left: 20px;
+    background-color: rgb(110, 171, 240);
+    justify-content: space-around;
+    text-align: center;
+}.leftButton{
+    background-color: rgb(176, 149, 240);
+    justify-content: space-around;
+    text-align: center;
+    width: 65px;
+}

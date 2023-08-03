@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item1"><img src=""> </li>
+                <li class="header__item2"> To Do List </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="part1">
+        <div class="part1__container">
+            <input type="text" id="part1__input1" placeholder="Add A Card" />
+            <input type="text" id="part1__input2" placeholder="Add A Task Description" />
+            <button id="part1__button" onclick="addTask()">Add</button>
+        </div>
+    </div>
+
+    <div class="part2">
+        <div class="part2__Card1">
+            <h2 class="part2__title1"></h2>
+            <div class="part2__color1">
+                <h2 class="part2__text1"> To Do </h2>
+            </div>
+            <div id="part2__loadingCard1"></div>
+        </div>
+
+        <div class="part2__Card2">
+            <h2 class="part2__title2"></h2>
+            <div class="part2__color2">
+                <h2 class="part2__text2"> In Progress </h2>
+            </div>
+            <div id="part2__loadingCard2"></div>
+        </div>
+
+        <div class="part2__Card3">
+            <h2 class="part2__title3"></h2>
+            <div class="part2__color3">
+                <h2 class="part2__text3">Done </h2>
+            </div>
+            <div id="part2__loadingCard3"></div>
+        </div>
+    </div>
+
+    <script src="ToDoList.js"></script>
+</body>
+
+</html>
